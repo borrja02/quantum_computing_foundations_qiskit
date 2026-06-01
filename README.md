@@ -1,14 +1,14 @@
-# Quantum Computing Fundamentals with Qiskit
+# Quantum computing fundamentals with Qiskit.
 
 This repository contains a structured collection of 5 interactive Jupyter Notebooks developed as an introduction to quantum information theory and foundational quantum algorithms. The project covers everything from essential principles like superposition and entanglement to algorithms demonstrating a proven quantum speedup over classical computation.
 
 All implementations are built using **Qiskit 1.x** and simulated locally using the high-performance `Qiskit Aer` framework.
 
-## Repository Structure
+## Repository structure.
 
 The project is organized into five sequential notebooks:
 
-1. **`GHZ_experiment.ipynb` (Simulation of the GHZ Experiment)**
+1. **`GHZ_experiment.ipynb` (Simulation of the GHZ experiment)**
    * Explores foundational quantum mechanics by breaking the EPR (Einstein-Podolsky-Rosen) paradox.
    * Implements a 3-qubit maximally entangled Greenberger-Horne-Zeilinger (GHZ) state.
    * Demonstrates the strict contradiction between local hidden variable theories and quantum mechanical predictions through selective measurement bases ($YYX$ vs. $XXX$).
@@ -30,7 +30,7 @@ The project is organized into five sequential notebooks:
    * Includes custom oracle designs, stage-by-stage multi-qubit phase inversions, and amplitude amplification using the diffusion operator.
    * Features a practical demonstration applied to searching prime numbers within a 4-bit space.
 
-## Prerequisites & Installation
+## Prerequisites & installation.
 
 To run these notebooks locally without breaking dependencies, we recommend setting up a clean virtual environment:
 
