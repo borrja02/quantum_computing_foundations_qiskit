@@ -15,7 +15,7 @@ The project is organized into five sequential notebooks:
 
 2. **`Deutsch_Jozsa_algorithm.ipynb`**
    * Implements one of the earliest quantum algorithms showing a deterministic exponential speedup.
-   * Solves the problem of determining whether a hidden Boolean function $f: \{0,1\}^n \rightarrow \{0,1\}$ is constant or balanced in a single query using phase kickback.
+   * Solves the problem of determining whether a hidden Boolean function $f: \lbrace 0, 1 \rbrace^n \rightarrow \lbrace 0,1\rbrace$ is constant or balanced in a single query using phase kickback.
 
 3. **`Bernstein_Vazirani_algorithm.ipynb`**
    * Processes an oracle containing a hidden bitstring $s \in \lbrace 0,1 \rbrace^n$ defining a Boolean function $f_s(x) = s \cdot x \pmod 2$.
@@ -23,7 +23,7 @@ The project is organized into five sequential notebooks:
 
 4. **`Simon_algorithm.ipynb`**
    * Explores the first quantum algorithm to provide an exponential speedup over classical algorithms for a structured black-box problem.
-   * Solves Simon's period-finding problem by identifying a hidden period $s \in \lbrace 0,1 \rbrace^n$ for a function satisfying $f(x) = f(y) \iff x \oplus y \in \{0, s\}$.
+   * Solves Simon's period-finding problem by identifying a hidden period $s \in \lbrace 0,1 \rbrace^n$ for a function satisfying $f(x) = f(y) \iff x \oplus y \in \lbrace 0, s \rbrace$.
 
 5. **`Grover_algorithm.ipynb`**
    * Implements Grover's search algorithm providing a quadratic speedup ($O(\sqrt{N})$) for searching unsorted structures.
