@@ -36,8 +36,8 @@ To run these notebooks locally without breaking dependencies, we recommend setti
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/YOUR_USERNAME/quantum-computing-fundamentals.git](https://github.com/YOUR_USERNAME/quantum-computing-fundamentals.git)
-cd quantum-computing-fundamentals
+git clone [https://github.com/borrja02/quantum_computing_foundations_qiskit.git](https://github.com/borrja02/quantum_computing_foundations_qiskit.git)
+cd quantum_computing_foundations_qiskit
 
 # 2. Create and activate a virtual environment
 python -m venv env
@@ -49,3 +49,16 @@ source env/bin/activate
 # 3. Upgrade pip and install requirements
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+## Implementation details.
+The notebooks are designed to follow standard software engineering and quantum open-source practices:
+
+* **No deprecated code**: Avoids obsolete methods like qiskit.execute() or legacy providers, relying strictly on modern execution pipelines (transpile() followed by AerSimulator().run()).
+
+* **Visualizations**: Circuit architectures are clearly displayed alongside structured measurement probability histograms generated with plot_histogram.
+
+* **Clean comments**: Code blocks avoid repetitive enumerations and feature comprehensive documentation in English describing register setup, state preparation, and measurement routing.
+
+## Authors
+Borja Álvarez Reguera and Alicia de la Varga Cabero
